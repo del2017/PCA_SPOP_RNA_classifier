@@ -21,3 +21,5 @@ Signature is downloaded from Supplementary Table 1a (https://ascopubs.org/doi/su
 ### 2. SPOP mutant signature input normalization based on TCGA FPKM expression data
 sig212 <- read.table("del2017/SPOP-RNA-classifier/TCGA_333_SPOP_sig_212genes.txt", sep="\t", header=T, check.names=F)
 
+### 3. SPOP mutant status is derived from TCGA PCA study (PMID: 26544944)
+https://www.cell.com/fulltext/S0092-8674(15)01339-2#supplementaryMaterial
