@@ -19,6 +19,9 @@ install.packages("https://cran.r-project.org/src/contrib/Archive/e1071/e1071_1.7
 Signature is downloaded from Supplementary Table 1a (https://ascopubs.org/doi/suppl/10.1200/PO.18.00036/)
 
 ### 2. SPOP mutant signature input from TCGA FPKM expression data
+sig212<-read.table("del2017/SPOP-RNA-classifier/TCGA_333_SPOP_sig_212genes.txt", sep="\t", header=T, check.names=F)
+
+
 
 
 
