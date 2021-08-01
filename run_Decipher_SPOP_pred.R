@@ -12,7 +12,7 @@ sur_col_wt<-brewer.pal(9,"Set1")[3]
 #Decipher data input
 #dat_gdx_expm<-readRDS("/Users/deli/Desktop/Chris/TCGA-PCA/GenomeDX/gdx_20180530_gdxExon_expression-gene.rds")
 dat_gdx_expm[1:3, 1:3]
-#Decipher data info.
+#Decipher data info saved in WCM cluster athana:
 datinfo<-read.xls("/Users/deli/Desktop/Chris/TCGA-PCA//GenomeDX/gndx-2016-04-26_clinical_expression_data.xlsx", 1) 
 datinfo2<-read.xls("/Users/deli/Desktop/Chris/TCGA-PCA//GenomeDX/gndx-2016-04-26_clinical_data_key.xlsx", 1)
 
