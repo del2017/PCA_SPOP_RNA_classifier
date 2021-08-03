@@ -13,8 +13,8 @@ sur_col_wt<-brewer.pal(9,"Set1")[3]
 #dat_gdx_expm<-readRDS("/Users/deli/Desktop/Chris/TCGA-PCA/GenomeDX/gdx_20180530_gdxExon_expression-gene.rds")
 dat_gdx_expm[1:3, 1:3]
 #Decipher data info saved in WCM cluster athana:
-datinfo<-read.xls("/Users/deli/Desktop/Chris/TCGA-PCA//GenomeDX/gndx-2016-04-26_clinical_expression_data.xlsx", 1) 
-datinfo2<-read.xls("/Users/deli/Desktop/Chris/TCGA-PCA//GenomeDX/gndx-2016-04-26_clinical_data_key.xlsx", 1)
+datinfo<-read.xls("/home/del2017/lab_del2017/Decipher/gndx-2016-04-26_clinical_expression_data.xlsx", 1) 
+datinfo2<-read.xls("/home/del2017/lab_del2017/Decipher/gndx-2016-04-26_clinical_data_key.xlsx", 1)
 
 #ETS exp
 dat_gdx_expm_sub<-t(merge(dat_gdx_expm, data.frame(c("ERG", "ETV1", "ETV4", "ETV5", "FLI1", "SPINK1")), by.x="gene", by.y="c..ERG....ETV1....ETV4....ETV5....FLI1....SPINK1.."))
